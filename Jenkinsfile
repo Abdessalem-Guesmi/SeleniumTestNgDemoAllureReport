@@ -15,22 +15,13 @@ pipeline{
                   
                   sh 'mvn test'
               }
-        
-                 post {
-          always {
-            script {
-              allure([
-                includeProperties: false,
-                jdk: '',
-                properties: [],
-                reportBuildPolicy: 'ALWAYS',
-                results: [[path: 'allure-results']]
-              ])
-            }
-          }
         }
+        stage('Report') {
+   				 
+   				 sh 'allure serve allure-results'
+  }
        }
        
        }
-    }
+    
 
