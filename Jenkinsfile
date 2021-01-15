@@ -15,13 +15,7 @@ pipeline{
                   
                   sh 'mvn test'
               }
-          }
-           stage('deploy project') {
-          steps {
-                  
-                  sh 'mvn deploy'
-             
-          }
+        
                  post {
           always {
             script {
