@@ -19,8 +19,8 @@ pipeline{
         stage('Report') {
         steps{
             
-            	 sh 'allure serve allure-results'
-            exit 0
+            	allure([results: [[path: 'allure-results']]])
+            
         }
 
    				 
