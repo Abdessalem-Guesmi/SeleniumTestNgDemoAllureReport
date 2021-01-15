@@ -20,6 +20,7 @@ pipeline{
         steps{
             
             	 sh 'allure serve allure-results'
+            exit 0
         }
 
    				 
