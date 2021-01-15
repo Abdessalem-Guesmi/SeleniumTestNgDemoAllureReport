@@ -17,8 +17,13 @@ pipeline{
               }
         }
         stage('Report') {
+        steps{
+            
+            	 sh 'allure serve allure-results'
+        }
+
    				 
-   				 sh 'allure serve allure-results'
+   			
   }
        }
        
