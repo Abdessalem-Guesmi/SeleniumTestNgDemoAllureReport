@@ -19,7 +19,7 @@ pipeline{
         stage('Report') {
         steps{
             
-            	allure([results: [[path: 'allure-results']]])
+            	sh 'allure([results: [[path: 'allure-results']]])'
             
         }
 
