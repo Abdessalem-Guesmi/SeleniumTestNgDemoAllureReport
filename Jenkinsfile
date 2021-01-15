@@ -19,7 +19,17 @@ pipeline{
         stage('Report') {
         steps{
             
-            	sh 'allure([results: [[path: 'allure-results']]])'
+            	 echo 'Publish Allure report'
+        publishHTML(
+                target: [
+                        allowMissing         : false,
+                        alwaysLinkToLastBuild: false,
+                        keepAll              : true,
+                        reportDir            : 'target/site/allure-maven-plugin',
+                        reportFiles          : 'index.html',
+                        reportName           : "Allure Report"
+                ]
+        )
             
         }
 
