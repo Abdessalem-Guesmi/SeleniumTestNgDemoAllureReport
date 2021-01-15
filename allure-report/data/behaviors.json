@@ -1,0 +1,118 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "setUp",
+    "uid" : "d0a9e81543df2ff5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1610328147435,
+      "stop" : 1610328147438,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "EP001",
+    "children" : [ {
+      "name" : "feature1: Test1",
+      "children" : [ {
+        "name" : "story1",
+        "children" : [ {
+          "name" : "test1",
+          "uid" : "a8ba048a00ad1e44",
+          "parentUid" : "3a4126dff3cde4cfb7c08ba7a8100c05",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610328147466,
+            "stop" : 1610328147473,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3a4126dff3cde4cfb7c08ba7a8100c05"
+      } ],
+      "uid" : "e0f387dad02e87076e22443557a8d3a1"
+    } ],
+    "uid" : "f416afe67be4bfdcd7f18b618c24be1b"
+  }, {
+    "name" : "EP002",
+    "children" : [ {
+      "name" : "feature2: Test2",
+      "children" : [ {
+        "name" : "story2",
+        "children" : [ {
+          "name" : "test2",
+          "uid" : "9a2a5e52df692885",
+          "parentUid" : "592887bdad7f446653becf32734c9962",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610328147496,
+            "stop" : 1610328147500,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "592887bdad7f446653becf32734c9962"
+      } ],
+      "uid" : "9587b2baf934d0b6f5dc2bab14896f50"
+    } ],
+    "uid" : "465df028f38019b5402a287795e07887"
+  }, {
+    "name" : "EP003",
+    "children" : [ {
+      "name" : "feature3: Test3",
+      "children" : [ {
+        "name" : "story3",
+        "children" : [ {
+          "name" : "test3",
+          "uid" : "130d6b33a502e04a",
+          "parentUid" : "5682828adead1159ee3b0ece51c97a79",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610328147522,
+            "stop" : 1610328147526,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5682828adead1159ee3b0ece51c97a79"
+      } ],
+      "uid" : "e961dbdcd7df58624111f75a4f160179"
+    } ],
+    "uid" : "6090a72fb8ca5ce95798a16bf892f490"
+  }, {
+    "name" : "EP004",
+    "children" : [ {
+      "name" : "feature4: Test4",
+      "children" : [ {
+        "name" : "story4",
+        "children" : [ {
+          "name" : "test4",
+          "uid" : "daeffced853d1bb9",
+          "parentUid" : "40b0129f5568c14972fe803b7d03b33b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1610328147547,
+            "stop" : 1610328147550,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "40b0129f5568c14972fe803b7d03b33b"
+      } ],
+      "uid" : "5e0d868accd38ab930ac7ff51954f097"
+    } ],
+    "uid" : "77474777f5f3c8c6fbd7b175f70733c5"
+  } ]
+}

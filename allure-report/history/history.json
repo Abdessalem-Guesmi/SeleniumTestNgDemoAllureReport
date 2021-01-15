@@ -1,0 +1,141 @@
+{
+  "dea885a5f31f788b3db4889fea825b75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9a2a5e52df692885",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9a2a5e52df692885",
+      "status" : "skipped",
+      "statusDetails" : "session not created\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x015AC0C3+3326147]\n\tOrdinal0 [0x01490851+2164817]\n\tOrdinal0 [0x01317298+619160]\n\tOrdinal0 [0x0130BD04+572676]\n\tOrdinal0 [0x0130BA18+571928]\n\tOrdinal0 [0x0130B0C1+569537]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x013138B1+604337]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01311D2C+597292]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130FE62+589410]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130F075+585845]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01306776+550774]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x01309F13+565011]\n\tOrdinal0 [0x01309D07+564487]\n\tOrdinal0 [0x013182C0+623296]\n\tOrdinal0 [0x012B6BDD+224221]\n\tOrdinal0 [0x012B5CAC+220332]\n\tOrdinal0 [0x012B189B+202907]\n\tOrdinal0 [0x01293DF4+81396]\n\tOrdinal0 [0x01294DEE+85486]\n\tOrdinal0 [0x01294D79+85369]\n\tOrdinal0 [0x014A85DC+2262492]\n\tGetHandleVerifier [0x01732874+1487204]\n\tGetHandleVerifier [0x017323CD+1486013]\n\tGetHandleVerifier [0x0173A368+1518680]\n\tGetHandleVerifier [0x01732F4E+1488958]\n\tOrdinal0 [0x0149ED0D+2223373]\n\tOrdinal0 [0x014AA12B+2269483]\n\tOrdinal0 [0x014AA26F+2269807]\n\tOrdinal0 [0x014BECB8+2354360]\n\tBaseThreadInitThunk [0x76D9343D+18]\n\tRtlInitializeExceptionChain [0x77819802+99]\n\tRtlInitializeExceptionChain [0x778197D5+54]\n",
+      "time" : {
+        "start" : 1610328147496,
+        "stop" : 1610328147500,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "53ebb8028d1ab88f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610323699695,
+        "stop" : 1610323702133,
+        "duration" : 2438
+      }
+    } ]
+  },
+  "f7e623ed39d729b3e08338de09e41d3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "130d6b33a502e04a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/130d6b33a502e04a",
+      "status" : "skipped",
+      "statusDetails" : "session not created\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x015AC0C3+3326147]\n\tOrdinal0 [0x01490851+2164817]\n\tOrdinal0 [0x01317298+619160]\n\tOrdinal0 [0x0130BD04+572676]\n\tOrdinal0 [0x0130BA18+571928]\n\tOrdinal0 [0x0130B0C1+569537]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x013138B1+604337]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01311D2C+597292]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130FE62+589410]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130F075+585845]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01306776+550774]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x01309F13+565011]\n\tOrdinal0 [0x01309D07+564487]\n\tOrdinal0 [0x013182C0+623296]\n\tOrdinal0 [0x012B6BDD+224221]\n\tOrdinal0 [0x012B5CAC+220332]\n\tOrdinal0 [0x012B189B+202907]\n\tOrdinal0 [0x01293DF4+81396]\n\tOrdinal0 [0x01294DEE+85486]\n\tOrdinal0 [0x01294D79+85369]\n\tOrdinal0 [0x014A85DC+2262492]\n\tGetHandleVerifier [0x01732874+1487204]\n\tGetHandleVerifier [0x017323CD+1486013]\n\tGetHandleVerifier [0x0173A368+1518680]\n\tGetHandleVerifier [0x01732F4E+1488958]\n\tOrdinal0 [0x0149ED0D+2223373]\n\tOrdinal0 [0x014AA12B+2269483]\n\tOrdinal0 [0x014AA26F+2269807]\n\tOrdinal0 [0x014BECB8+2354360]\n\tBaseThreadInitThunk [0x76D9343D+18]\n\tRtlInitializeExceptionChain [0x77819802+99]\n\tRtlInitializeExceptionChain [0x778197D5+54]\n",
+      "time" : {
+        "start" : 1610328147522,
+        "stop" : 1610328147526,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "944a535f4fde0f1",
+      "status" : "skipped",
+      "statusDetails" : "test-case skipped",
+      "time" : {
+        "start" : 1610323707769,
+        "stop" : 1610323708766,
+        "duration" : 997
+      }
+    } ]
+  },
+  "b5990bca89ceef8751540d46e902edea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "daeffced853d1bb9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/daeffced853d1bb9",
+      "status" : "skipped",
+      "statusDetails" : "session not created\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x015AC0C3+3326147]\n\tOrdinal0 [0x01490851+2164817]\n\tOrdinal0 [0x01317298+619160]\n\tOrdinal0 [0x0130BD04+572676]\n\tOrdinal0 [0x0130BA18+571928]\n\tOrdinal0 [0x0130B0C1+569537]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x013138B1+604337]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01311D2C+597292]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130FE62+589410]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130F075+585845]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01306776+550774]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x01309F13+565011]\n\tOrdinal0 [0x01309D07+564487]\n\tOrdinal0 [0x013182C0+623296]\n\tOrdinal0 [0x012B6BDD+224221]\n\tOrdinal0 [0x012B5CAC+220332]\n\tOrdinal0 [0x012B189B+202907]\n\tOrdinal0 [0x01293DF4+81396]\n\tOrdinal0 [0x01294DEE+85486]\n\tOrdinal0 [0x01294D79+85369]\n\tOrdinal0 [0x014A85DC+2262492]\n\tGetHandleVerifier [0x01732874+1487204]\n\tGetHandleVerifier [0x017323CD+1486013]\n\tGetHandleVerifier [0x0173A368+1518680]\n\tGetHandleVerifier [0x01732F4E+1488958]\n\tOrdinal0 [0x0149ED0D+2223373]\n\tOrdinal0 [0x014AA12B+2269483]\n\tOrdinal0 [0x014AA26F+2269807]\n\tOrdinal0 [0x014BECB8+2354360]\n\tBaseThreadInitThunk [0x76D9343D+18]\n\tRtlInitializeExceptionChain [0x77819802+99]\n\tRtlInitializeExceptionChain [0x778197D5+54]\n",
+      "time" : {
+        "start" : 1610328147547,
+        "stop" : 1610328147550,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "318187b5741baf5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610323714137,
+        "stop" : 1610323715149,
+        "duration" : 1012
+      }
+    } ]
+  },
+  "ebdd06225da5a0bada34fe6cfd5cce6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0a9e81543df2ff5",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d0a9e81543df2ff5",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x015AC0C3+3326147]\n\tOrdinal0 [0x01490851+2164817]\n\tOrdinal0 [0x01317298+619160]\n\tOrdinal0 [0x0130BD04+572676]\n\tOrdinal0 [0x0130BA18+571928]\n\tOrdinal0 [0x0130B0C1+569537]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x013138B1+604337]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01311D2C+597292]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130FE62+589410]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130F075+585845]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01306776+550774]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x01309F13+565011]\n\tOrdinal0 [0x01309D07+564487]\n\tOrdinal0 [0x013182C0+623296]\n\tOrdinal0 [0x012B6BDD+224221]\n\tOrdinal0 [0x012B5CAC+220332]\n\tOrdinal0 [0x012B189B+202907]\n\tOrdinal0 [0x01293DF4+81396]\n\tOrdinal0 [0x01294DEE+85486]\n\tOrdinal0 [0x01294D79+85369]\n\tOrdinal0 [0x014A85DC+2262492]\n\tGetHandleVerifier [0x01732874+1487204]\n\tGetHandleVerifier [0x017323CD+1486013]\n\tGetHandleVerifier [0x0173A368+1518680]\n\tGetHandleVerifier [0x01732F4E+1488958]\n\tOrdinal0 [0x0149ED0D+2223373]\n\tOrdinal0 [0x014AA12B+2269483]\n\tOrdinal0 [0x014AA26F+2269807]\n\tOrdinal0 [0x014BECB8+2354360]\n\tBaseThreadInitThunk [0x76D9343D+18]\n\tRtlInitializeExceptionChain [0x77819802+99]\n\tRtlInitializeExceptionChain [0x778197D5+54]\n",
+      "time" : {
+        "start" : 1610328147435,
+        "stop" : 1610328147438,
+        "duration" : 3
+      }
+    } ]
+  },
+  "28915889e84fa6a67d4681b21f328cd5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a8ba048a00ad1e44",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a8ba048a00ad1e44",
+      "status" : "skipped",
+      "statusDetails" : "session not created\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x015AC0C3+3326147]\n\tOrdinal0 [0x01490851+2164817]\n\tOrdinal0 [0x01317298+619160]\n\tOrdinal0 [0x0130BD04+572676]\n\tOrdinal0 [0x0130BA18+571928]\n\tOrdinal0 [0x0130B0C1+569537]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x013138B1+604337]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01311D2C+597292]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130FE62+589410]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x0130F075+585845]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x0130AEA2+568994]\n\tOrdinal0 [0x0130A421+566305]\n\tOrdinal0 [0x0130A815+567317]\n\tOrdinal0 [0x0130A135+565557]\n\tOrdinal0 [0x01306776+550774]\n\tOrdinal0 [0x0130A0F1+565489]\n\tOrdinal0 [0x01309F13+565011]\n\tOrdinal0 [0x01309D07+564487]\n\tOrdinal0 [0x013182C0+623296]\n\tOrdinal0 [0x012B6BDD+224221]\n\tOrdinal0 [0x012B5CAC+220332]\n\tOrdinal0 [0x012B189B+202907]\n\tOrdinal0 [0x01293DF4+81396]\n\tOrdinal0 [0x01294DEE+85486]\n\tOrdinal0 [0x01294D79+85369]\n\tOrdinal0 [0x014A85DC+2262492]\n\tGetHandleVerifier [0x01732874+1487204]\n\tGetHandleVerifier [0x017323CD+1486013]\n\tGetHandleVerifier [0x0173A368+1518680]\n\tGetHandleVerifier [0x01732F4E+1488958]\n\tOrdinal0 [0x0149ED0D+2223373]\n\tOrdinal0 [0x014AA12B+2269483]\n\tOrdinal0 [0x014AA26F+2269807]\n\tOrdinal0 [0x014BECB8+2354360]\n\tBaseThreadInitThunk [0x76D9343D+18]\n\tRtlInitializeExceptionChain [0x77819802+99]\n\tRtlInitializeExceptionChain [0x778197D5+54]\n",
+      "time" : {
+        "start" : 1610328147466,
+        "stop" : 1610328147473,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "26df5af6c4b77817",
+      "status" : "failed",
+      "statusDetails" : "text not equal did not expect to find [true] but found [false]",
+      "time" : {
+        "start" : 1610323690728,
+        "stop" : 1610323692040,
+        "duration" : 1312
+      }
+    } ]
+  }
+}

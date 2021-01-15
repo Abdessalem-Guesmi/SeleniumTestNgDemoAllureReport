@@ -1,0 +1,51 @@
+[ {
+  "uid" : "9a2a5e52df692885",
+  "name" : "test2",
+  "time" : {
+    "start" : 1610328147496,
+    "stop" : 1610328147500,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+}, {
+  "uid" : "daeffced853d1bb9",
+  "name" : "test4",
+  "time" : {
+    "start" : 1610328147547,
+    "stop" : 1610328147550,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "d0a9e81543df2ff5",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1610328147435,
+    "stop" : 1610328147438,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "130d6b33a502e04a",
+  "name" : "test3",
+  "time" : {
+    "start" : 1610328147522,
+    "stop" : 1610328147526,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a8ba048a00ad1e44",
+  "name" : "test1",
+  "time" : {
+    "start" : 1610328147466,
+    "stop" : 1610328147473,
+    "duration" : 7
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+} ]

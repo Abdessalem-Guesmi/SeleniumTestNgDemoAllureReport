@@ -1,0 +1,12 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo google Search",
+  "data" : {
+    "duration" : 115
+  }
+}, {
+  "data" : {
+    "duration" : 24421
+  }
+} ]
